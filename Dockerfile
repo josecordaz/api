@@ -2,10 +2,10 @@ FROM golang:1.13.2-alpine3.10
 
 EXPOSE 8283
 
-WORKDIR $GOPATH/src/josecordaz/api/
+WORKDIR $GOPATH/go/bin/
 
-COPY main.go .
+COPY api .
 
-RUN go build -o /go/bin/api
+# RUN go build -o /go/bin/api
 
 ENTRYPOINT ["/go/bin/api"]
