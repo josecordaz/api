@@ -8,4 +8,6 @@ COPY api .
 
 # RUN go build -o /go/bin/api
 
-CMD ["/go/bin/api"]
+# CMD ["/go/bin/api"]
+
+CMD [ "echo","test" ]
