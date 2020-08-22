@@ -10,4 +10,4 @@ COPY api .
 
 # CMD ["/go/bin/api"]
 
-CMD [ "echo","test" ]
+CMD [ "echo","test2" ]
